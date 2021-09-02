@@ -1,0 +1,263 @@
+*, *::before, *::after {
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    /* background-color: #7367F0; */
+}
+
+/* Font family */
+
+:root {
+    --h1-font-family: 'Open Sans', sans-serif;
+    --body-font-family: 'Open Sans', sans-serif;
+
+
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.5rem;
+    --body-font-size: 1rem;
+    /* background: rgb(2,0,36); */
+    /* background-color: #fee794; */
+    background-image: linear-gradient(62deg,#a18cd1, #fbc2eb);
+    
+}
+
+
+/* Css variable for consistency throughout styling */
+
+/* Navigation styling */
+.header__home {
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    padding-bottom: 10px;
+    /* background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%); */
+}
+
+
+/* Main styling */
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+} 
+.navigation__home a:hover  {
+    /* text-decoration: none; */
+    /* background-color: rgba(100,100,100, 0.20) */
+} 
+
+
+/* Footer styling */
+.footer__home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: fixed;
+    bottom: 10px;
+}
+
+
+.footer__home a:hover {
+    color: #7367F0;
+}
+
+button {
+    background-color: #94e0fe;
+    border: 0.5px solid black;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: var(--h1-font-family);
+    font-size: var(--h1-font-size);
+    margin: 0;
+    
+}
+
+button:hover {
+    background-color: #7367F0; 
+    
+    
+}
+
+
+.work__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: inherit;
+    line-height: 24px;
+    
+}
+/* Desktop responsive */
+/* @media screen (min-device-width: 1024px) {
+    
+} */
+/* Tablet responsive */
+/* @media screen (min-device-width: 768px) {
+    
+} */
+/* Mobile responsive */
+/* @media screen (min-device-width: 320px) {
+    
+} */
+
+
+mark {
+    background-color: yellow;
+}
+
+body {
+    /* background-color: skyblue; */
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size);
+}
+
+p {
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size);
+}
+
+
+.work__resume {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: solid black 1px; */
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+.work__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: var(--h1-font-family);
+    font-size: var(--h2-font-size);
+    /* overflow-wrap: unset; */
+}
+
+.work__div {
+    margin: 10px 10px;
+    /* border: 1px solid black; */
+}
+
+.work__information {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: solid black 1px; */
+
+}
+
+.work__download__info {
+    /* border: solid black 1px; */
+}
+
+
+
+section > div > h2, 
+section > div > h3,
+section > div > h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.profile__card {
+    width: 200px;
+    height: 200px;
+    opacity: 85%;
+}
+
+.home__profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.home__introduction > h2 {
+    font-size: 36px;
+    font-family: var(--h1-font-family);
+}
+
+.home__introduction > h3 {
+    font-size: 22px;
+    font-family: var(--h1-font-family);
+    color: lightgrey;
+}
+
+.home__introduction > h4 {
+    font-size: 18px;
+    font-family: var(--h1-font-family);
+    color: #94e0fe;
+}
+
+.home__introduction--text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    /* margin-bottom: ; */
+}
+
+.contact__form,
+.contact__intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.the_contact__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 20px 20px 20px;
+    margin: 10px auto;
+    border: 2.5px solid black;
+    background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+}
+
+form > label {
+    padding-top: 10px;
+}
+
+form > input,
+form > textarea {
+    border: 2px solid black;
+}
+
+.contact__submit-btn {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.contact__submit-btn:hover {
+    background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+}
+
+footer > a > img:hover {
+    color: red;
+    border: 1px solid black;
+}
+
+a:active, 
+a:hover,
+a:link {
+    color: #f6d365;
+}
+
+a.current {
+    color: #f6d365;
+    
+    /* color:#CE9FFC; */
+  }
+
