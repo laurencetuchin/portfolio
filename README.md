@@ -1,5 +1,5 @@
-# portfolio
-portfolio 
+# Portfolio
+ 
 
 **Version 1.0.0**
 
@@ -9,7 +9,7 @@ A readme for the portfolio website
 
 ## License & copyright
 
-Laurence Tuchin
+&copy; Laurence Tuchin
 
 
 Demo website / insert link
@@ -68,7 +68,9 @@ I wanted to make a mobile first site that has secondary responsiveness towards o
 ![Sitemap](https://github.com/laurencetuchin/portfolio/blob/main/src/Sitemap.png)
 
 #### Screenshots
-![Home](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotIndex.png)
+
+[Home](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotIndex.png)
+
 ![Skills](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotSkills.png)
 ![Contact](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotContact.png)
 ![Work](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotWork.png)
