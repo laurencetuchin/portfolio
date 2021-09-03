@@ -5,41 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+        $(function(){
+        $('a').each(function() {
+            if ($(this).prop('href') == window.location.href) {
+            $(this).addClass('current');
+            }
+        });
+        });
+    </script>
     <title>Document</title>
 </head>
 <!-- Navigation bar -->
 <header class="header__home">
     <nav class="navigation__home">
         <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
         <a href="contact.html">Contact</a>
         <a href="work.html">Work</a>
-        <a href="personality.html">Personality</a>
         <a href="blog.html">Blog</a>
     </nav>
 </header>
 
 <body>
-    blog
-    <article>
-        <h2><a href="blog/blog1.html">Blog title</a></h2> 
-        <h4>Article published <time datetime="2021-08-24">August 24</time></h4>
-    </article>
-    <article>
-        <h2><a href="blog/blog2.html">Blog title</a></h2> 
-        <h2>Blog title</h2>
-        <h4>Article published <time datetime="2018-08-24">August 24</time></h4>
-    </article>
-    <article>
-        <h2>Blog title</h2>
-        <h4>Article published <time datetime="2018-08-24">August 24</time></h4>
-    </article>
-    <article>
-        <h2>Blog title</h2>
-        <h4>Article published <time datetime="2018-08-24">August 24</time></h4>
-    </article>
-    <article>
-        <h2>Blog title</h2>
-        <h4>Article published <time datetime="2018-08-24">August 24</time></h4>
-    </article>
-</body>
+    <div class="blog__grid">
+
+        <article class="blog__item">
+            <h3><a href="blog/blog1.html">Blog title</a></h3> 
+            <h4>Article published <time datetime="2021-08-24">August 24</time></h4>
+        </article>
+        <article class="blog__item">
+            <h2><a href="blog/blog2.html">Blog title</a></h2> 
+            <h2>Blog title</h2>
+            <h4>Article published <time datetime="2018-08-24">August 24</time></h4>
+        </article>
+        <article class="blog__item">
+            <h2>Blog title</h2>
+            <h4>Article published <time datetime="2018-08-24">August 24</time></h4>
+        </article>
+        <article class="blog__item">
+            <h2>Blog title</h2>
+            <h4>Article published <time datetime="2018-08-24">August 24</time></h4>
+        </article>
+        <article class="blog__item">
+            <h2>Blog title</h2>
+            <h4>Article published <time datetime="2018-08-24">August 24</time></h4>
+        </article>
+    </div>
+    </body>
 </html>

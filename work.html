@@ -6,32 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+        $(function(){
+        $('a').each(function() {
+            if ($(this).prop('href') == window.location.href) {
+            $(this).addClass('current');
+            }
+        });
+        });
+    </script>
 </head>
 <!-- Navigation bar -->
 <header class="header__home">
     <nav class="navigation__home">
         <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
         <a href="contact.html">Contact</a>
         <a href="work.html">Work</a>
-        <a href="personality.html">Personality</a>
         <a href="blog.html">Blog</a>
     </nav>
 </header>
 
 <body>
     <section>
+        
         <div class="work__div">
             <h2 class="work__title">Coder Academy</h2>
-            <p class="work__information">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus exercitationem magnam nam facilis consequuntur asperiores in sed cupiditate dignissimos reiciendis.
+            <p class="work__information">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo culpa praesentium dicta blanditiis ratione numquam voluptatem iusto, placeat tempora eos accusamus illo est quaerat minima hic labore veritatis doloremque error dolore harum omnis sint ipsum! Minima quisquam, beatae dicta error natus debitis veritatis, officia vero corporis obcaecati explicabo, corrupti quia ea modi ratione magnam odit! Id, eos impedit. Nihil aliquam quasi omnis iure iste necessitatibus quam ex asperiores, sed praesentium explicabo eos dicta sequi, molestiae reprehenderit? Explicabo at laborum corporis vitae placeat eligendi officiis non! Aliquid eos, provident illo explicabo omnis illum vel aperiam sed ipsa numquam facere voluptatibus consectetur?
             </p>
         </div>
         <div class="work__div">
             <h2 class="work__title">Digital Marketing</h2>
-            <p class="work__information">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet non magnam repellat beatae quae commodi ducimus unde aliquid ratione dignissimos.</p>
+            <p class="work__information">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo culpa praesentium dicta blanditiis ratione numquam voluptatem iusto, placeat tempora eos accusamus illo est quaerat minima hic labore veritatis doloremque error dolore harum omnis sint ipsum! Minima quisquam, beatae dicta error natus debitis veritatis, officia vero corporis obcaecati explicabo, corrupti quia ea modi ratione magnam odit! Id, eos impedit. Nihil aliquam quasi omnis iure iste necessitatibus quam ex asperiores, sed praesentium explicabo eos dicta sequi, molestiae reprehenderit? Explicabo at laborum corporis vitae placeat eligendi officiis non! Aliquid eos, provident illo explicabo omnis illum vel aperiam sed ipsa numquam facere voluptatibus consectetur?</p>
         </div>
         <div class="work__div">
             <h2 class="work__title">University of Wollongong</h2>
-            <p class="work__information">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis quos officia tempora a! Vero reiciendis excepturi perspiciatis voluptates ullam!</p>
+            <p class="work__information">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo culpa praesentium dicta blanditiis ratione numquam voluptatem iusto, placeat tempora eos accusamus illo est quaerat minima hic labore veritatis doloremque error dolore harum omnis sint ipsum! Minima quisquam, beatae dicta error natus debitis veritatis, officia vero corporis obcaecati explicabo, corrupti quia ea modi ratione magnam odit! Id, eos impedit. Nihil aliquam quasi omnis iure iste necessitatibus quam ex asperiores, sed praesentium explicabo eos dicta sequi, molestiae reprehenderit? Explicabo at laborum corporis vitae placeat eligendi officiis non! Aliquid eos, provident illo explicabo omnis illum vel aperiam sed ipsa numquam facere voluptatibus consectetur?</p>
         </div>
     </section>
     <section class="work__resume">
@@ -42,7 +56,7 @@
     
     <!-- Option to view or download file -->
     <!-- User is able to download file here -->
-    <div class="work__button"><a href="index.html" download="fileName.jpg"><button>Download</button></a></div>
+    <div class="work__button"><a href="index.html" download="fileName.jpg"><button>Download &#10142;</button></a></div>
     <body>
         
     </body>
