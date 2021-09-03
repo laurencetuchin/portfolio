@@ -20,23 +20,20 @@ CSS variables are used in this site to make it easier to modify colors without n
 
 Git repository found here
 
-Components
+#### Components
 
-<!-- The homepage -->
+- Navigation bar
+- Contact form
+- Blog article grid 
+- Blog image + caption
+- Skills grid
+- Social icons
+- Copyright
+- Download resume button
+- List of interests
 
-Index.html 
-
-Contact form component
-
-User is able to send a message and contact me
-
-[link to contact form](insertlink)
 
 
-
-<!-- Further development -->
-
-Add projects to portfolio
 
 
 A link (URL) to your 
@@ -71,12 +68,12 @@ I wanted to make a mobile first site that has secondary responsiveness towards o
 ![Sitemap](https://github.com/laurencetuchin/portfolio/blob/main/src/Sitemap.png)
 
 #### Screenshots
-![Home]()
-![Skills]()
-![Contact]()
-![Work]()
-![Blog]()
-![Blog article]()
+![Home](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotIndex.png)
+![Skills](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotSkills.png)
+![Contact](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotContact.png)
+![Work](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotWork.png)
+![Blog](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotBlog.png)
+![Blog article](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotBlogPost1.png)
 
 #### Target audience
 This website's target audience is recruiters/developers that may be looking to employ me.
@@ -91,3 +88,8 @@ This website's target audience is recruiters/developers that may be looking to e
 - Netlify
 
 
+
+
+<!-- Further development -->
+
+Add projects to portfolio
