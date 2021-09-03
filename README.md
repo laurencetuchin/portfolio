@@ -50,9 +50,11 @@ A link to your
 Description of your portfolio website, including,
 Purpose
 #### Functionality / features
+- Deep ocean theme
 - Focus on simplicity
 - Mobile first design
--
+- Clean responsive design
+- CSS variables - easy to change color/ font etc
 
 #### Sitemap
 ![Sitemap]()
