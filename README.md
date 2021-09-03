@@ -37,3 +37,41 @@ User is able to send a message and contact me
 <!-- Further development -->
 
 Add projects to portfolio
+
+
+A link (URL) to your 
+## published portfolio website
+[](urlnetlify)
+A link to your 
+### GitHub repo
+[Github Repo](https://github.com/laurencetuchin/portfolio)
+
+
+Description of your portfolio website, including,
+Purpose
+#### Functionality / features
+- Focus on simplicity
+- Mobile first design
+-
+
+#### Sitemap
+![Sitemap]()
+
+#### Screenshots
+![Home]()
+![Skills]()
+![Contact]()
+![Work]()
+![Blog]()
+![Blog article]()
+Target audience
+
+#### Tech stack (e.g. html, css, deployment platform, etc)
+- HTML
+- CSS
+- JS
+- JQUERY
+- Git
+- Netlify
+
+

@@ -105,7 +105,7 @@ button {
     height: 50px;
     border-radius: 10px;
     margin: 0;
-    
+    color: var(--main-black-clr);
 }
 
 button:hover {
@@ -168,13 +168,11 @@ p {
     align-items: center;
     padding: 10px;
     font-family: var(--h1-font-family);
-    font-size: var(--h2-font-size);
-    /* overflow-wrap: unset; */
+    font-size: var(--fs-h2);
 }
 
 .work__div {
     margin: 10px 10px;
-    /* border: 1px solid black; */
 }
 
 .work__information {
@@ -182,7 +180,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* border: solid black 1px; */
+    text-align: center;
 
 }
 
@@ -310,7 +308,10 @@ a.current {
 .home__work-btn {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    font-size: var(--fs-h2);
+    font-family: var(--body-font-family);
+    color: var(--main-black-clr);
 }
 
 svg:hover {
@@ -358,7 +359,7 @@ input[type="submit"] {
     text-align: center;
 }
 a button {
-    color: var(--main-black-clr);
+    
 }
 
 .footer__copyright {
@@ -418,8 +419,8 @@ h4 {
     position: relative;
     overflow: hidden;
     width: 300px;
-    height: 200px;
-    margin: 5px;
+    height: 300px;
+    margin: 10px;
     background-color: var(--main-accent-dark-2-clr);
     text-align: center;
 }
@@ -463,9 +464,9 @@ div article:hover {
 .blog__article--headline,
 .blog__article--date,
 .blog__article--text,
-.blog__image--caption,
-.blog__image--image,
 .blog__article--figcaption,
+.blog__image--caption, 
+.blog__image--image,
 .blog__article--blockquote,
 .blog__article--h3,
 .blog__article--close {
@@ -483,18 +484,22 @@ div article:hover {
 .blog__image--image {
     width: 20rem;
     height: auto;
-    justify-content: center;
     display: flex;
+    justify-content: center;
     align-items: center;
+    
 }
 
 .blog__article--figcaption {
     color: var(--main-accent-light-1-clr);
     font-size: var(--fs-body);
     margin: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 .blog__article--blockquote {
     font-size: 3rem;
     text-align: start;
 }
+
