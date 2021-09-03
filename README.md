@@ -71,7 +71,7 @@ Target audience
 #### Tech stack (e.g. html, css, deployment platform, etc)
 - HTML
 - CSS
-- JS
+- Javascript
 - JQUERY
 - Git
 - Netlify

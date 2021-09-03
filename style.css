@@ -53,9 +53,10 @@
 
 /* Navigation styling */
 .header__home {
-    margin: 10px 10px;
+    margin: 10px 0px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     /* border: 1px solid black; */
     padding-bottom: 10px;
     width: 100%;
@@ -77,6 +78,11 @@ a {
     color: var(--main-accent-light-3-clr);
 } 
 
+.navigation__home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Footer styling */
 .footer__home {
