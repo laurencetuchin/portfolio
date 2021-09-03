@@ -57,7 +57,7 @@ Purpose
 - CSS variables - easy to change color/ font etc
 
 #### Sitemap
-![Sitemap]()
+![Sitemap](https://github.com/laurencetuchin/portfolio/blob/main/src/Sitemap.png)
 
 #### Screenshots
 ![Home]()
