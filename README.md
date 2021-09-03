@@ -14,10 +14,6 @@ A readme for the portfolio website
 
 Demo website / insert link
 
-Features
-
-CSS variables are used in this site to make it easier to modify colors without needing to individually select colors for each element or class. 
-
 Git repository found here
 
 #### Components
@@ -32,14 +28,10 @@ Git repository found here
 - Download resume button
 - List of interests
 
-
-
-
-
-A link (URL) to your 
-## published portfolio website
+Demo website / insert link
+## Published portfolio website
 [Netlify](urlnetlify)
-A link to your 
+
 ### GitHub repo
 [Github Repo](https://github.com/laurencetuchin/portfolio)
 
@@ -65,17 +57,16 @@ I wanted to make a mobile first site that has secondary responsiveness towards o
 - CSS variables - easy to change color/ font etc
 
 #### Sitemap
-![Sitemap](https://github.com/laurencetuchin/portfolio/blob/main/src/Sitemap.png)
+[Sitemap](https://github.com/laurencetuchin/portfolio/blob/main/src/Sitemap.png)
 
 #### Screenshots
 
 [Home](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotIndex.png)
-
-![Skills](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotSkills.png)
-![Contact](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotContact.png)
-![Work](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotWork.png)
-![Blog](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotBlog.png)
-![Blog article](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotBlogPost1.png)
+[Skills](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotSkills.png)
+[Contact](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotContact.png)
+[Work](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotWork.png)
+[Blog](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotBlog.png)
+[Blog article](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotBlogPost1.png)
 
 #### Target audience
 This website's target audience is recruiters/developers that may be looking to employ me.
@@ -92,6 +83,7 @@ This website's target audience is recruiters/developers that may be looking to e
 
 
 
-<!-- Further development -->
+#### Further development
 
-Add projects to portfolio
+- Add projects to portfolio
+- Mobile hamburger menu
