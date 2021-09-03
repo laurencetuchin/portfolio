@@ -41,14 +41,25 @@ Add projects to portfolio
 
 A link (URL) to your 
 ## published portfolio website
-[](urlnetlify)
+[Netlify](urlnetlify)
 A link to your 
 ### GitHub repo
 [Github Repo](https://github.com/laurencetuchin/portfolio)
 
 
 Description of your portfolio website, including,
-Purpose
+
+#### Description
+This website is designed to showcase my abilities in HTML and CSS. It has allowed me to gain an appreciation for git by understanding that its easier to revert saved errors by comparing with a changelog to understand what went wrong. 
+
+I wanted to make a mobile first site that has secondary responsiveness towards other devices.
+
+#### Purpose
+- Learn HTML/CSS
+- Gain a better understanding of structuring for web development
+- Assignment 
+- Learn how to solve problems and find solutions
+
 #### Functionality / features
 - Deep ocean theme
 - Focus on simplicity
@@ -66,7 +77,10 @@ Purpose
 ![Work]()
 ![Blog]()
 ![Blog article]()
-Target audience
+
+#### Target audience
+This website's target audience is recruiters/developers that may be looking to employ me.
+
 
 #### Tech stack (e.g. html, css, deployment platform, etc)
 - HTML

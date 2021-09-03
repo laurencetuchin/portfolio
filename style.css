@@ -211,14 +211,11 @@ p {
     justify-content: center;
     align-items: center; */
     /* margin-top: 15px; */
-    width: 40%;
-    height: 40%;
+    width: 200px;
+    height: 200px;
     /* opacity: 85%; */
     overflow: hidden;
     border-radius: 50%;
-    /* position: absolute; */
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
 }
 
 
@@ -508,4 +505,3 @@ div article:hover {
     font-size: 3rem;
     text-align: start;
 }
-
