@@ -112,6 +112,7 @@ button {
     border-radius: 10px;
     margin: 0;
     color: var(--main-black-clr);
+    cursor: pointer;
 }
 
 button:hover {
@@ -228,7 +229,6 @@ p {
 .home__introduction > h3 {
     font-size: 22px;
     font-family: var(--h1-font-family);
-    color: lightgrey;
 }
 
 .home__introduction > h4 {
@@ -394,18 +394,22 @@ a button {
 
 h1 {
     font-size: var(--fs-h1);
+    color: var(--main-accent-light-2-clr);
 }
 
 h2 {
     font-size: var(--fs-h2);
+    color: var(--main-accent-light-2-clr);
 }
 
 h3 {
     font-size: var(--fs-h3);
+    color: var(--main-accent-light-2-clr);
 }
 
 h4 {
     font-size: var(--fs-h4);
+    color: var(--main-accent-light-2-clr);
 }
 
 
@@ -504,4 +508,17 @@ div article:hover {
 .blog__article--blockquote {
     font-size: 3rem;
     text-align: start;
+}
+
+.home_intro--name {
+    background-image: linear-gradient(62deg, var(--main-accent-dark-1-clr), var(--main-accent-light-1-clr));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline;
+}
+
+.home_intro--name:hover {
+    left: 0;
+    transition: 2s;
 }
