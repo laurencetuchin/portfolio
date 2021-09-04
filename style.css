@@ -288,6 +288,7 @@ form > textarea {
 .contact__submit-btn {
     margin-top: 10px;
     padding: 5px;
+    cursor: pointer;
 }
 
 .contact__submit-btn:hover {
