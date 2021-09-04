@@ -208,18 +208,24 @@ p {
 }
 
 .home__profile-pic {
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     /* margin-top: 15px; */
     width: 200px;
     height: 200px;
     /* opacity: 85%; */
     overflow: hidden;
     border-radius: 50%;
+    position: relative;
 }
 
-
+.home__profile_img {
+    /* display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto; */
+}
 
 .home__introduction > h2 {
     font-size: 36px;
