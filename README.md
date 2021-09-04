@@ -30,7 +30,7 @@ Git repository found here
 
 Demo website / insert link
 ## Published portfolio website
-[Netlify](urlnetlify)
+[Netlify](https://boring-feynman-4e047e.netlify.app/index.html)
 
 ### GitHub repo
 [Github Repo](https://github.com/laurencetuchin/portfolio)
@@ -57,16 +57,16 @@ I wanted to make a mobile first site that has secondary responsiveness towards o
 - CSS variables - easy to change color/ font etc
 
 #### Sitemap
-[Sitemap](https://github.com/laurencetuchin/portfolio/blob/main/src/Sitemap.png)
+![Sitemap](https://github.com/laurencetuchin/portfolio/blob/main/src/Sitemap.png)
 
 #### Screenshots
 
-[Home](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotIndex.png)
-[Skills](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotSkills.png)
-[Contact](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotContact.png)
-[Work](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotWork.png)
-[Blog](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotBlog.png)
-[Blog article](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotBlogPost1.png)
+![Home](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotIndex.png)
+![Skills](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotSkills.png)
+![Contact](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotContact.png)
+![Work](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotWork.png)
+![Blog](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotBlog.png)
+![Blog article](https://github.com/laurencetuchin/portfolio/blob/main/src/ScreenshotBlogPost1.png)
 
 #### Target audience
 This website's target audience is recruiters/developers that may be looking to employ me.
