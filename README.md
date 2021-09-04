@@ -81,7 +81,7 @@ This website's target audience is recruiters/developers that may be looking to e
 - Netlify
 
 
-
+---
 
 #### Further development
 
