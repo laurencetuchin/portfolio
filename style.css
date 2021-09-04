@@ -67,6 +67,53 @@
 
 /* Main styling */
 
+/* Desktop responsive */
+@media (min-width: 1024px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-h4: 1.35rem;
+        --fs-body: 1.125rem;
+
+    }
+}
+
+
+/* Tablet responsive */
+@media (min-width: 768px) {
+    :root {
+        --fs-h1: 4rem;
+        --fs-h2: 3.5rem;
+        --fs-h3: 1.35rem;
+        --fs-h4: 1.2rem;
+        --fs-body: 1.05rem;
+
+    }
+}
+/* Mobile responsive */
+/* Site is already designed for mobile responsive, other devices are responsive if they are wide enough */
+
+h1 {
+    font-size: var(--fs-h1);
+    color: var(--main-accent-light-2-clr);
+}
+
+h2 {
+    font-size: var(--fs-h2);
+    color: var(--main-accent-light-2-clr);
+}
+
+h3 {
+    font-size: var(--fs-h3);
+    color: var(--main-accent-light-2-clr);
+}
+
+h4 {
+    font-size: var(--fs-h4);
+    color: var(--main-accent-light-2-clr);
+}
+
 a {
     text-decoration: none;
     padding: 5px;
@@ -340,53 +387,7 @@ input[type="submit"] {
     align-items: center;
 }
 
-/* Desktop responsive */
-@media (min-width: 800px) {
-    :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-h4: 1.35rem;
-        --fs-body: 1.125rem;
 
-    }
-}
-
-/* Mobile responsive */
-
-
-
-/* Tablet responsive */
-@media (min-width: 600px) {
-    :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-h4: 1.35rem;
-        --fs-body: 1.125rem;
-
-    }
-}
-
-h1 {
-    font-size: var(--fs-h1);
-    color: var(--main-accent-light-2-clr);
-}
-
-h2 {
-    font-size: var(--fs-h2);
-    color: var(--main-accent-light-2-clr);
-}
-
-h3 {
-    font-size: var(--fs-h3);
-    color: var(--main-accent-light-2-clr);
-}
-
-h4 {
-    font-size: var(--fs-h4);
-    color: var(--main-accent-light-2-clr);
-}
 
 
 .blog__grid {
@@ -494,7 +495,3 @@ div article:hover {
     display: inline;
 }
 
-.home_intro--name:hover {
-    left: 0;
-    transition: 2s;
-}
