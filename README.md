@@ -11,10 +11,15 @@ A readme for the portfolio website
 
 &copy; Laurence Tuchin
 
+--- 
 
-Demo website / insert link
+## Published portfolio website
+Netlify live demo
+[Netlify](https://boring-feynman-4e047e.netlify.app/index.html)
 
+### GitHub repo
 Git repository found here
+[Github Repo](https://github.com/laurencetuchin/portfolio)
 
 #### Components
 
@@ -28,15 +33,6 @@ Git repository found here
 - Download resume button
 - List of interests
 
-Demo website / insert link
-## Published portfolio website
-[Netlify](https://boring-feynman-4e047e.netlify.app/index.html)
-
-### GitHub repo
-[Github Repo](https://github.com/laurencetuchin/portfolio)
-
-
-Description of your portfolio website, including,
 
 #### Description
 This website is designed to showcase my abilities in HTML and CSS. It has allowed me to gain an appreciation for git by understanding that its easier to revert saved errors by comparing with a changelog to understand what went wrong. 
@@ -75,9 +71,8 @@ This website's target audience is recruiters/developers that may be looking to e
 #### Tech stack (e.g. html, css, deployment platform, etc)
 - HTML
 - CSS
-- Javascript
 - JQUERY
-- Git
+- Github
 - Netlify
 
 

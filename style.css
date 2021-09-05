@@ -91,8 +91,24 @@
 
     }
 }
+
+
 /* Mobile responsive */
 /* Site is already designed for mobile responsive, other devices are responsive if they are wide enough */
+
+@media (min-width: 375px) {
+    :root {
+        --fs-h1: 3rem;
+        --fs-h2: 2.25rem;
+        --fs-h3: 1.25rem;
+        --fs-h4: 1.15rem;
+        --fs-body: 1rem;
+
+    }
+}
+
+
+
 
 h1 {
     font-size: var(--fs-h1);
@@ -279,6 +295,13 @@ button:hover {
 
 .home__introduction {
     text-align: center;
+}
+
+.home__work-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .home__work-btn {
